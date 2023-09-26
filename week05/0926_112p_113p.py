@@ -1,0 +1,38 @@
+# 교재 112페이지 - 113페이지 연습
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+# angle = 120
+# t.right(angle)
+# t.forward(100)
+# t.left(angle)
+# t.forward(100)
+# t.left(angle)
+# t.forward(100)
+
+
+# angle = int(input('회전 각도를 입력하세요: '))
+# length = int(input('전진 길이를 입력하세요: '))
+# t.forward(length)
+# t.left(angle)
+# t.forward(length)
+# t.left(angle)
+# t.forward(length)
+# t.left(angle)
+# t.forward(length)
+# t.left(angle)
+# t.forward(length)
+
+angle = int(input('회전 각도를 입력하세요: '))
+length = int(input('전진 길이를 입력하세요: '))
+t.forward(length)
+t.left(angle)
+t.forward(length)
+t.left(angle)
+t.forward(length)
+t.left(angle)
+t.forward(length)
+t.left(angle)
+t.forward(length)
+t.left(angle)
+t.forward(length)
