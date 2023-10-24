@@ -78,3 +78,7 @@ for i in range(1,7):
   number=random.randint(1,45)
   numbers.append(number)
 print(numbers)"""
+
+name = "이현성"
+height = 175.3181
+print(f'제 이름은 {name}이고 키는 {height:.2f}')

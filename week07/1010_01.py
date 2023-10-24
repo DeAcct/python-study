@@ -13,7 +13,7 @@ remain = n1 % n2 % n3
 share = n1 // n2 // n3
 power = n1 ** n2 ** n3
 
-print('''
+print("""
   덧셈: %d
   뺄셈: %d
   곱셈: %d
@@ -21,4 +21,4 @@ print('''
   나머지: %d
   몫: %d
   거듭제곱: %d
-''' % (total, minus, multi, div, remain, share, power))
+""" % (total, minus, multi, div, remain, share, power))
